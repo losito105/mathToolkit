@@ -26,7 +26,8 @@ def solve_word_prob():
         const = input("\nConstant being raised to a power: ")
         t_const = input("\nConstant t is being multiplied by: ")
 
-        log_part = math.log((Decimal(F)/Decimal(A)),Decimal(const))
+        div = Decimal(F)/Decimal(A)
+        log_part = math.log(div, Decimal(const))
         retval = log_part / float(t_const)
         print("\n" + str(retval))
 
