@@ -1,3 +1,4 @@
+#a program to convert between logarithmic fucntions and exponential functions
 def convert():
     x=input("Type your values in here: ")
     base,power,exponent,which_one=x.split(",")
